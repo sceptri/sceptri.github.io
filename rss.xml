@@ -4,9 +4,25 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 22 Sep 2022 21:21:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Sep 2022 22:20:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Explanation of L2 norm of an error]]></title>
+            <guid>2919a765573048d7aa49e537cd34e243</guid>
+            <pubDate>Thu, 22 Sep 2022 17:58:09 GMT</pubDate>
+            <content:encoded><![CDATA[<p>When solving for the sparsest possible set of DEs, it is likely our found model will <strong>not</strong> describe the data exactly - there will be an error</p>
+<p>Therefore we can measure the error and give the user it's <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>l</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">l^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>-norm</p>
+<ul>
+<li>The error is a vector of errors at each time-step</li>
+<li>More information regarding the <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>l</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">l^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>-norm is <a title="https://mathworld.wolfram.com/L2-Norm.html" href="https://mathworld.wolfram.com/L2-Norm.html">here</a></li>
+</ul>
+<p>When working with 2 or more dimensional data, the <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>l</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">l^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>-norm returned will be vector of <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>l</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">l^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.01968em">l</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em"><span style="top:-3.063em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span> norms in each coordinate</p>
+<p>!!!note<br />
+Ahoj<br />
+!!!</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Teorie M8230]]></title>
             <guid>fa5e87bf032e4b3d89fe1a14e5d8632b</guid>
