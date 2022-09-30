@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>Thesis kanban board - sceptri</title>
+  <link rel="stylesheet" href="/_markdown_plugin_assets/highlight.js/atom-one-light.css" /></head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">sceptri</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">Thesis kanban board</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1658059877581"
+                  >2022-07-17 14:11</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1664543834744"
+                  >2022-09-30 15:17</time
+                ></span
+              >
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><p>Kanban board setup</p>
+<div><pre class="hljs"><code><span class="hljs-attr">filters:</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">task</span>
+<span class="hljs-attr">columns:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Backlog</span>
+    <span class="hljs-attr">backlog:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Work</span> <span class="hljs-string">in</span> <span class="hljs-string">progress</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">wip</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Stalled</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">stalled</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Bugfixes</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">bugfix</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Finished</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">done</span>
+        <span class="hljs-attr">completed:</span> <span class="hljs-literal">true</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Discontinued</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">discontinued</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Backlog</th>
+<th>Work in progress</th>
+<th>Stalled</th>
+<th>Bugfixes</th>
+<th>Finished</th>
+<th>Discontinued</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a>try non-continuous underlying system of DEs</a></td>
+<td><a>Explore how many trajectories can be used as opposed to just one</a></td>
+<td><a>Use FFT to compute derivative - use laplace</a></td>
+<td><a>Generators should use <code>alg_hints</code> instead of hard coded algorithms</a></td>
+<td><a>Write script util and define structure for each "experiment"</a></td>
+<td><a>Saving entities</a></td>
+</tr>
+<tr>
+<td><a>Explore how much noise we can bear</a></td>
+<td><a>Find out how L2 norm error works</a></td>
+<td><a>clean structure of the project</a></td>
+<td><a>Update <code>Project.toml</code> to require julia version 1.8.*</a></td>
+<td><a>Add to git</a></td>
+<td><a>Add &amp; fix flashing cursor</a></td>
+</tr>
+<tr>
+<td><a>Explore using SINDy on less data</a></td>
+<td></td>
+<td><a>Add README</a></td>
+<td></td>
+<td><a>Update to Julia 1.8.0</a></td>
+<td><a>Breaking lines when text gets too long</a></td>
+</tr>
+<tr>
+<td><a>Try and do the DMD analysis</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write runner for Julia, Matlab &amp; R</a></td>
+<td><a>Creating new fields on entities</a></td>
+</tr>
+<tr>
+<td><a>Try and use other methods than SINDy for discovering equations</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Use tvdiff to get smooth derivatives</a></td>
+<td><a>Nested entries &amp; fields - both as arrays and as whole new objects</a></td>
+</tr>
+<tr>
+<td><a>Sort out TODOs</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write display &amp; edit entity component</a></td>
+<td><a>Pretty printing of entity fields</a></td>
+</tr>
+<tr>
+<td><a>Add copyright</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write editable entity document (or editable fields anywhere in general)</a></td>
+<td><a>Write templated data processor</a></td>
+</tr>
+<tr>
+<td><a>Add types and descriptions to functions</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Make test data for 1D model and try to learn it</a></td>
+<td><a>Write config utils so that Thesis can use config</a></td>
+</tr>
+<tr>
+<td><a>Setup julia latex document</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write templated data generator</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Clean the code - structure, etc. </a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Last updated at 9/30/2022, 3:17:14 PM by Kanban plugin</em></p>
+</div>
+      </article>
+    </div>
+  </body>
+</html>

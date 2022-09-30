@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 22 Sep 2022 22:20:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Sep 2022 13:17:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -414,6 +414,124 @@ A také</p>
 <div><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi mathvariant="normal">Δ</mi><msub><mi>P</mi><mi>k</mi></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi>P</mi><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msub><mo stretchy="false">(</mo><mi>t</mi><mo stretchy="false">)</mo><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex">\Delta P_k(t) = P_{k-1}(t),
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord">Δ</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em">k</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">t</span><span class="mclose">)</span><span class="mpunct">,</span></span></span></span></span></div>
 <p>kde <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>P</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">P_k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.13889em">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em"><span class="pstrut" style="height:2.7em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.03148em">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em"><span></span></span></span></span></span></span></span></span></span></span> je polynom <span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em"></span><span class="mord mathnormal" style="margin-right:0.03148em">k</span></span></span></span></span>-tého stupně.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Thesis kanban board]]></title>
+            <guid>ecb0dc9038744caca6831c6fc5d194cf</guid>
+            <pubDate>Sun, 17 Jul 2022 12:11:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Kanban board setup</p>
+<div><pre class="hljs"><code><span class="hljs-attr">filters:</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">task</span>
+<span class="hljs-attr">columns:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Backlog</span>
+    <span class="hljs-attr">backlog:</span> <span class="hljs-literal">true</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Work</span> <span class="hljs-string">in</span> <span class="hljs-string">progress</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">wip</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Stalled</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">stalled</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Bugfixes</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">bugfix</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Finished</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">done</span>
+        <span class="hljs-attr">completed:</span> <span class="hljs-literal">true</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Discontinued</span>
+        <span class="hljs-attr">tag:</span> <span class="hljs-string">discontinued</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th>Backlog</th>
+<th>Work in progress</th>
+<th>Stalled</th>
+<th>Bugfixes</th>
+<th>Finished</th>
+<th>Discontinued</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a>try non-continuous underlying system of DEs</a></td>
+<td><a>Explore how many trajectories can be used as opposed to just one</a></td>
+<td><a>Use FFT to compute derivative - use laplace</a></td>
+<td><a>Generators should use <code>alg_hints</code> instead of hard coded algorithms</a></td>
+<td><a>Write script util and define structure for each "experiment"</a></td>
+<td><a>Saving entities</a></td>
+</tr>
+<tr>
+<td><a>Explore how much noise we can bear</a></td>
+<td><a>Find out how L2 norm error works</a></td>
+<td><a>clean structure of the project</a></td>
+<td><a>Update <code>Project.toml</code> to require julia version 1.8.*</a></td>
+<td><a>Add to git</a></td>
+<td><a>Add &amp; fix flashing cursor</a></td>
+</tr>
+<tr>
+<td><a>Explore using SINDy on less data</a></td>
+<td></td>
+<td><a>Add README</a></td>
+<td></td>
+<td><a>Update to Julia 1.8.0</a></td>
+<td><a>Breaking lines when text gets too long</a></td>
+</tr>
+<tr>
+<td><a>Try and do the DMD analysis</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write runner for Julia, Matlab &amp; R</a></td>
+<td><a>Creating new fields on entities</a></td>
+</tr>
+<tr>
+<td><a>Try and use other methods than SINDy for discovering equations</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Use tvdiff to get smooth derivatives</a></td>
+<td><a>Nested entries &amp; fields - both as arrays and as whole new objects</a></td>
+</tr>
+<tr>
+<td><a>Sort out TODOs</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write display &amp; edit entity component</a></td>
+<td><a>Pretty printing of entity fields</a></td>
+</tr>
+<tr>
+<td><a>Add copyright</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write editable entity document (or editable fields anywhere in general)</a></td>
+<td><a>Write templated data processor</a></td>
+</tr>
+<tr>
+<td><a>Add types and descriptions to functions</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Make test data for 1D model and try to learn it</a></td>
+<td><a>Write config utils so that Thesis can use config</a></td>
+</tr>
+<tr>
+<td><a>Setup julia latex document</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Write templated data generator</a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><a>Clean the code - structure, etc. </a></td>
+</tr>
+</tbody>
+</table>
+<p><em>Last updated at 9/30/2022, 3:17:14 PM by Kanban plugin</em></p>
 ]]></content:encoded>
         </item>
     </channel>
