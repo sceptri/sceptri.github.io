@@ -24,31 +24,38 @@
                 ></span
               >
               <span
-                >Updated At：<time datetime="1665053942821"
-                  >2022-10-06 12:59</time
+                >Updated At：<time datetime="1665236211605"
+                  >2022-10-08 15:36</time
                 ></span
               >
             </div>
             
           </div>
         </header>
-        <div class="article-content markdown-body"><p>Kanban board setup</p>
+        <div class="article-content markdown-body"><h1 id="kanban-board-setup">Kanban board setup</h1>
+<p>Removed discontinued CLI tool</p>
+<blockquote>
+<p>Can be added as</p>
+<div><pre class="hljs"><code><span class="hljs-bullet">-</span>
+   <span class="hljs-attr">name:</span> <span class="hljs-string">Discontinued</span> <span class="hljs-string">CLI</span> <span class="hljs-string">tool</span>
+   <span class="hljs-attr">tag:</span> <span class="hljs-string">discontinued</span></code></pre></div>
+</blockquote>
+<h2 id="board-source-code">Board source code</h2>
 <div><pre class="hljs"><code><span class="hljs-attr">filters:</span>
-    <span class="hljs-attr">tag:</span> <span class="hljs-string">task</span>
+  <span class="hljs-attr">tag:</span> <span class="hljs-string">task</span>
 <span class="hljs-attr">columns:</span>
   <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Backlog</span>
     <span class="hljs-attr">backlog:</span> <span class="hljs-literal">true</span>
   <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Work</span> <span class="hljs-string">in</span> <span class="hljs-string">progress</span>
     <span class="hljs-attr">tag:</span> <span class="hljs-string">wip</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Stalled</span>
-        <span class="hljs-attr">tag:</span> <span class="hljs-string">stalled</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Bugfixes</span>
-        <span class="hljs-attr">tag:</span> <span class="hljs-string">bugfix</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Stalled</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">stalled</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Bugfixes</span>
+    <span class="hljs-attr">tag:</span> <span class="hljs-string">bugfix</span>
   <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Finished</span>
     <span class="hljs-attr">tag:</span> <span class="hljs-string">done</span>
-        <span class="hljs-attr">completed:</span> <span class="hljs-literal">true</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Discontinued</span> <span class="hljs-string">CLI</span> <span class="hljs-string">tool</span>
-        <span class="hljs-attr">tag:</span> <span class="hljs-string">discontinued</span></code></pre></div>
+    <span class="hljs-attr">completed:</span> <span class="hljs-literal">true</span>
+</code></pre></div>
 <table>
 <thead>
 <tr>
@@ -57,41 +64,57 @@
 <th>Stalled</th>
 <th>Bugfixes</th>
 <th>Finished</th>
-<th>Discontinued CLI tool</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a>try non-continuous underlying system of DEs</a></td>
-<td><a>Organize tasks into milestones</a></td>
-<td><a>Use FFT to compute derivative - use laplace</a></td>
+<td><a>Explore how much noise we can bear</a></td>
+<td><a>Read the 1st part of the Databook</a></td>
+<td><a>clean structure of the project</a></td>
 <td><a>Generators should use <code>alg_hints</code> instead of hard coded algorithms</a></td>
 <td><a>Add to git</a></td>
-<td><a>Saving entities</a></td>
 </tr>
 <tr>
-<td><a>Explore how much noise we can bear</a></td>
+<td><a>Try and do the DMD analysis</a></td>
 <td><a>Explore how many trajectories can be used as opposed to just one</a></td>
-<td><a>clean structure of the project</a></td>
+<td><a>Add README</a></td>
 <td><a>Update <code>Project.toml</code> to require julia version 1.8.*</a></td>
 <td><a>Update to Julia 1.8.0</a></td>
-<td><a>Write script util and define structure for each "experiment"</a></td>
 </tr>
 <tr>
-<td><a>Explore using SINDy on less data</a></td>
+<td><a>Read the 3rd part of the Databook</a></td>
+<td><a>Setup julia latex document</a></td>
 <td><a>Find out how L2 norm error works</a></td>
-<td><a>Add README</a></td>
 <td></td>
 <td><a>Use tvdiff to get smooth derivatives</a></td>
-<td><a>Add &amp; fix flashing cursor</a></td>
 </tr>
 <tr>
-<td><a>Try and use other methods than SINDy for discovering equations</a></td>
+<td><a>Read the 2nd part of the Databook</a></td>
 <td></td>
 <td></td>
 <td></td>
 <td><a>Make test data for 1D model and try to learn it</a></td>
-<td><a>Breaking lines when text gets too long</a></td>
+</tr>
+<tr>
+<td><a>try non-continuous underlying system of DEs</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a>Use FFT to compute derivative - use laplace</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a>Explore using SINDy on less data</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td><a>Sort out TODOs</a></td>
@@ -99,7 +122,6 @@
 <td></td>
 <td></td>
 <td></td>
-<td><a>Write runner for Julia, Matlab &amp; R</a></td>
 </tr>
 <tr>
 <td><a>Add copyright</a></td>
@@ -107,7 +129,6 @@
 <td></td>
 <td></td>
 <td></td>
-<td><a>Creating new fields on entities</a></td>
 </tr>
 <tr>
 <td><a>Add types and descriptions to functions</a></td>
@@ -115,67 +136,17 @@
 <td></td>
 <td></td>
 <td></td>
-<td><a>Write editable entity document (or editable fields anywhere in general)</a></td>
 </tr>
 <tr>
-<td><a>Setup julia latex document</a></td>
+<td><a>Try and use other methods than SINDy for discovering equations</a></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td><a>Write display &amp; edit entity component</a></td>
-</tr>
-<tr>
-<td><a>Try and do the DMD analysis</a></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Nested entries &amp; fields - both as arrays and as whole new objects</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Pretty printing of entity fields</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Write templated data processor</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Write config utils so that Thesis can use config</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Write templated data generator</a></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td><a>Clean the code - structure, etc. </a></td>
 </tr>
 </tbody>
 </table>
-<p><em>Last updated at 10/6/2022, 12:59:02 PM by Kanban plugin</em></p>
+<p><em>Last updated at 10/8/2022, 3:36:51 PM by Kanban plugin</em></p>
 </div>
       </article>
     </div>
